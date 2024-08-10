@@ -1,6 +1,6 @@
 # earthdata_aod
 
-### Hi, i am Lucas Coringa, and this project focus on extract AOD values of .HDF files from EarthData - Nasa. Besides, this project shows how to filter (e.g. drop NaN, drop outliers etc.).
+### Hi, i am Lucas Coringa, and this project focus on extract AOD values of .HDF files from EarthData - Nasa. Besides, this project shows how to filter the data (e.g. drop NaN, drop outliers etc.).
 
 The "loop_hdf.ipynb" shows how to extract aod values of .HDF files and how to organize the time scale.
 
