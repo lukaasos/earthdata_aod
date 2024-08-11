@@ -1,4 +1,4 @@
-# earthdata_aod: Project to extract and filter AOD data from .HDF files
+Project to extract and filter AOD data from .HDF files
 
 ## Hi, I’m Lucas Coringa, and this project is focused on extracting Aerosol Optical Depth (AOD) values from .HDF files provided by NASA’s EarthData. Additionally, the project demonstrates how to filter and clean the data, such as removing NaN values and outliers.
 
