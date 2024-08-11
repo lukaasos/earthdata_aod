@@ -1,13 +1,13 @@
-# earthdata_aod
+# earthdata_aod: Project to extract and filter AOD data from .HDF files
 
-### Hi, i am Lucas Coringa, and this project focus on extract AOD values of .HDF files from EarthData - Nasa. Besides, this project shows how to filter the data (e.g. drop NaN, drop outliers etc.).
+## Hi, I’m Lucas Coringa, and this project is focused on extracting Aerosol Optical Depth (AOD) values from .HDF files provided by NASA’s EarthData. Additionally, the project demonstrates how to filter and clean the data, such as removing NaN values and outliers.
 
-The "loop_hdf.ipynb" shows how to extract aod values of .HDF files and how to organize the time scale.
+In the "loop_hdf.ipynb" notebook, you'll find instructions on how to extract AOD values from .HDF files and organize the data on a time scale.
 
-The "process_final" filter data and put in a dataframe. After this process, you can make your analysis.
+The "process_final.ipynb" notebook filters the extracted data and structures it into a DataFrame, preparing it for further analysis.
 
-Read the documentation of the MODIS product.
+Make sure to review the MODIS product documentation before you begin.
 
-You will create a test csv file in "loop_hdf.ipynb", but you will use the others csv files to pass throug "process_final.ipynb".
+You'll create a test CSV file in "loop_hdf.ipynb," but the subsequent CSV files will be processed using "process_final.ipynb."
 
-#### you can download the data in https://urs.earthdata.nasa.gov/home, and the tutorial to download you can check in "tutorial_modis.pdf"
+### You can download the necessary data from EarthData, and refer to "tutorial_modis.pdf" for guidance on the download process.
